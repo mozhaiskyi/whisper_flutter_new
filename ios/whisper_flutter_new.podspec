@@ -32,7 +32,7 @@ A Flutter FFI plugin for Whisper.cpp.
     'DEFINES_MODULE' => 'YES',
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386',
     'OTHER_CFLAGS' => '-DGGML_USE_ACCELERATE',  # Flag for ggml.c
-    'OTHER_CPLUSPLUSFLAGS' => '-DWHISPER_USE_COREML -DWHISPER_COREML_ALLOW_FALLBACK',  # Flags for whisper.cpp
+    # 'OTHER_CPLUSPLUSFLAGS' => '-DWHISPER_USE_COREML -DWHISPER_COREML_ALLOW_FALLBACK',  # Flags for whisper.cpp
   }
   s.swift_version = '5.0'
 end
